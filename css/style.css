@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #cd0508;
+}
+
+/* PADRÃO */
+* {	
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link { color: #000; }
+.navbar-light .navbar-nav .nav-link:hover { color: var(--cor1); transition: color 0.6s; }
+.navbar-light .navbar-nav .active .nav-link { color: var(--cor1); }
+h1 { font-family: 'titulo1'; color: var(--cor1); }
+h2 { font-size: 1.8em; }
+h2 span { color: var(--cor1); font-weight: bold; }
+h3 { text-align: center; font-size: 1.5em; }
+hr { width: 80px; height: 2px; margin-top: 0px; border-radius: 10px; background-color: var(--cor1);}
+.cor1 { color: var(--cor1); }
+
+/* BANNER */
+#banner { 
+    min-height: 80vh;
+    background: url(../img/capa.png) center center;
+    background-size: cover;
+}
+
+/* MISSÃO, VISÃO E VALORES */
+#valores .card {
+    background-color: #FAFAFA;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px #d9d9d9;
+    text-align: center;
+}
+
+#valores .card img {
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: var(--cor1);
+    width: 70px;
+    height: 70px;
+}
+
+#valores div div p { text-align: justify; }
+/* O QUE FAZEMOS */
+#servicos { background-color: #F0F1F6; }
+
+/* PORTFÓLIO */
+#servicos hr, #portfolio hr { margin-left: auto; margin-right: auto; }
+
+/* RODAPÉ */
+#contacto h1 { color: #fff; }
+#contacto h2 { font-size: 50pt; }
+footer { background-color: #212121; border-top: 1px solid #fff; }
