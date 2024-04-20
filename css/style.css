@@ -24,7 +24,7 @@ hr { width: 80px; margin-top: 0px; border: 2px solid var(--cor1); opacity: 1;}
     justify-content: center;
     align-items: center;
 }
-#capa h1 { color: #fff; font-size: 3em; text-transform: uppercase;}
+#capa h1 { color: #fff; font-size: 2.8rem; text-transform: uppercase;}
 
 /* MISSÃO, VISÃO E VALORES */
 #valores { margin-top: -60px; }
@@ -38,6 +38,14 @@ hr { width: 80px; margin-top: 0px; border: 2px solid var(--cor1); opacity: 1;}
     height: 70px;
 }
 #valores div div p { text-align: justify; }
+#valores div div, #servicos .col-lg-4 { margin-bottom: 10px;}
+
+/* QUEM SOMOS */
+.vantagens { width: 40px; background-color: var(--cor1); padding: 5px; border-radius: 50%; }
+@media only screen and (max-width: 767px) {
+    #quem-somos h2 { text-align: center; }
+    #quem-somos hr { margin-left: auto; margin-right: auto; }
+}
 
 /* NOSSOS SERVIÇOS */
 #servicos { background-color: #F0F1F6; }
