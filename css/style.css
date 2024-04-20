@@ -24,7 +24,10 @@ hr { width: 80px; margin-top: 0px; border: 2px solid var(--cor1); opacity: 1;}
     justify-content: center;
     align-items: center;
 }
-#capa h1 { color: #fff; font-size: 2.8rem; text-transform: uppercase;}
+#capa h1 { color: #fff; font-size: 2.8rem; text-transform: uppercase; text-align: center; }
+@media only screen and (max-width: 767px) {
+    #capa h1 { font-size: 2rem; }
+}
 
 /* MISSÃO, VISÃO E VALORES */
 #valores { margin-top: -60px; }
